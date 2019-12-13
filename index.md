@@ -101,13 +101,21 @@ Konfigurera följande GPO:er enligt nedan:
 
 ### Övervaka AD händelser
 Använd gärna något övervakningsverktyg för övervakning och analys av följande händelser:
+
 `Changes to privileged groups such as Domain Admins, Enterprise Admins and Schema Admins`
+
 `A spike in bad password attempts`
+
 `A spike in locked out accounts`
+
 `Account lockouts`
+
 `Disabled or removal of antivirus software`
+
 `All actives performed by privileged accounts`
+
 `Logon/Logoff events`
+
 `Use of local administrator accounts`
 
 ### Lösenordspolicy
