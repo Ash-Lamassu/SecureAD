@@ -50,9 +50,25 @@ Audit ‘Security Group Management’ är ‘Success and Failure’
 
 Audit ‘User Account Management’ är ‘Success and Failure’
 
-`Detailed Tracking`  Audit ‘PNP Activity’ är ‘Success’  Audit ‘Process Creation’ är ‘Success’
+`Detailed Tracking`
 
-`Logon/Logoff`  Audit ‘Account Lockout’ är ‘Success and Failure’  Audit ‘Group Membership’ är ‘Success’  Audit ‘Logoff’ är ‘Success’  Audit ‘Logon’ är ‘Success and Failure’  Audit ‘Other Logon/Logoff Events’ är ‘Success and Failure’  Audit ‘Special Logon’ är ‘Success’  
+Audit ‘PNP Activity’ är ‘Success’  Audit ‘Process Creation’ är ‘Success’
+
+`Logon/Logoff`
+
+Audit ‘Account Lockout’ är ‘Success and Failure’
+
+Audit ‘Group Membership’ är ‘Success’
+
+Audit ‘Logoff’ är ‘Success’
+
+Audit ‘Logon’ är ‘Success and Failure’
+
+Audit ‘Other Logon/Logoff Events’ är ‘Success and Failure’
+
+Audit ‘Special Logon’ är ‘Success’
+
+
 `Object Access`
 
 Audit ‘Removable Storage’ är ‘Success and Failure’
@@ -60,7 +76,9 @@ Audit ‘Removable Storage’ är ‘Success and Failure’
 `Policy Change`
 
 Audit ‘Audit Policy Change’ är ‘Success and Failure’
+
 Audit ‘Authentication Policy Change’ är ‘Success’
+
 Audit ‘Authorization Policy Change’ är ‘Success’
 
 `Privilege Use`
@@ -69,10 +87,15 @@ Audit ‘Sensitive Privilege Use’ är ‘Success and Failure’
 
 `System`
 Audit ‘IPsec Driver’ är ‘Success and Failure’
+
 Audit’ Other System Events’ är ‘Success and Failure’
+
 Audit ‘Security State Change’ är ‘Success’
+
 Audit ‘Security System Extension’ är ‘Success and Failure’
+
 Audit ‘System Integrity’ är ‘Success and Failure’
+
 
 ### Övervaka AD händelser
 Använd gärna något övervakningsverktyg för övervakning och analys av följande händelser:
