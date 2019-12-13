@@ -34,14 +34,20 @@ Använd en SAW för att administrera systemen. SAW ska endast användas för att
 Konfigurera följande GPO:er
 > Computer Configuration -> Policies -Windows Settings -> Security Settings -> Advanced Audit Policy Configuration
 
-`Account Logon`  Säkerställ att ‘Audit Credential Validation’ är inställt på ‘Success and Failure’
+`Account Logon`
+
+Säkerställ att ‘Audit Credential Validation’ är inställt på ‘Success and Failure’
 
 `Account Management`
 
 Audit ‘Application Group Management’ är ‘Success and Failure’
+
 Audit ‘Computer Account Management’ är ‘Success and Failure’
+
 Audit ‘Other Account Management Events’ är ‘Success and Failure’
+
 Audit ‘Security Group Management’ är ‘Success and Failure’
+
 Audit ‘User Account Management’ är ‘Success and Failure’
 
 `Detailed Tracking`  Audit ‘PNP Activity’ är ‘Success’  Audit ‘Process Creation’ är ‘Success’
