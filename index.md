@@ -40,11 +40,11 @@ Säkerställ att 'Audit Credential Validation' är inställt på Success and Fai
 
 `Account Management`
 
-Audit ‘Application Group Management’ är ‘Success and Failure’
+`Audit Application Group Management` är `Success and Failure`
 
-Audit ‘Computer Account Management’ är ‘Success and Failure’
+`Audit Computer Account Management är `Success and Failure`
 
-Audit ‘Other Account Management Events’ är ‘Success and Failure’
+`Audit Other Account Management Events` är `Success and Failure`
 
 Audit ‘Security Group Management’ är ‘Success and Failure’
 
