@@ -40,63 +40,63 @@ Konfigurera följande GPO:er enligt nedan:
 
 > Account Management
 
-`Audit Application Group Management` ska vara inställt på `Success and Failure`
+`Audit Application Group Management` ska vara satt till `Success and Failure`
 
-`Audit Computer Account Management` ska vara inställt på `Success and Failure`
+`Audit Computer Account Management` satt till `Success and Failure`
 
-`Audit Other Account Management Events` ska vara inställt på `Success and Failure`
+`Audit Other Account Management Events` satt till `Success and Failure`
 
-`Audit Security Group Management` ska vara inställt på `Success and Failure`
+`Audit Security Group Management` satt till `Success and Failure`
 
-`Audit User Account Management` ska vara inställt på `Success and Failure`
+`Audit User Account Management` satt till `Success and Failure`
 
 > Detailed Tracking
 
-`Audit PNP Activity` ska vara inställt på `Success`
+`Audit PNP Activity` satt till `Success`
 
-`Audit Process Creation` ska vara inställt på `Success`
+`Audit Process Creation` satt till `Success`
 
 > Logon/Logoff
 
-`Audit Account Lockout` ska vara inställt på `Success and Failure`
+`Audit Account Lockout` satt till `Success and Failure`
 
-`Audit Group Membership` ska vara inställt på `Success`
+`Audit Group Membership` satt till `Success`
 
-`Audit Logoff` ska vara inställt på `Success`
+`Audit Logoff` ssatt till `Success`
 
-`Audit Logon` ska vara inställt på `Success and Failure`
+`Audit Logon` satt till `Success and Failure`
 
-`Audit Other Logon/Logoff Events` ska vara inställt på `Success and Failure`
+`Audit Other Logon/Logoff Events` satt till `Success and Failure`
 
-`Audit Special Logon` ska vara inställt på `Success`
+`Audit Special Logon` satt till `Success`
 
 > Object Access
 
-`Audit Removable Storage` ska vara inställt på `Success and Failure`
+`Audit Removable Storage` satt till `Success and Failure`
 
 > Policy Change
 
-`Audit Audit Policy Change` ska vara inställt på `Success and Failure`
+`Audit Audit Policy Change` satt till `Success and Failure`
 
-`Audit Authentication Policy Change` ska vara inställt på `Success`
+`Audit Authentication Policy Change` satt till `Success`
 
-`Audit ‘Authorization Policy Change` ska vara inställt på `Success`
+`Audit ‘Authorization Policy Change` satt till `Success`
 
 > Privilege Use
 
-`Audit Sensitive Privilege Use` ska vara inställt på `Success and Failure`
+`Audit Sensitive Privilege Use` satt till `Success and Failure`
 
 > System
 
-`Audit IPsec Driver` ska vara inställt på `Success and Failure`
+`Audit IPsec Driver` satt till `Success and Failure`
 
-`Audit Other System Events` ska vara inställt på `Success and Failure`
+`Audit Other System Events` satt till `Success and Failure`
 
-`Audit Security State Change` ska vara inställt på `Success`
+`Audit Security State Change` satt till `Success`
 
-`Audit Security System Extension` ska vara inställt på `Success and Failure`
+`Audit Security System Extension` satt till `Success and Failure`
 
-`Audit System Integrity` ska vara inställt på `Success and Failure`
+`Audit System Integrity` satt till `Success and Failure`
 
 
 ### Övervaka AD händelser
