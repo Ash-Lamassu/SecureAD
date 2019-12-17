@@ -4,10 +4,10 @@
 Gå igenom AD och begränsa konton med högre rättigheter. Implementera [Least privilege administrative model](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models). Använd [PowerShellscriptet](https://gallery.technet.microsoft.com/scriptcenter/AD-account-Audit-find-bfcc60db) för att hitta dessa konton.
 
 ### Städa AD:et
-Radera gamla dator och gamla användarkonton, avaktiverade konton, tjänstekonton som inte används m.m.
+Gå igenom aktiverade och avaktiverade konton, datorer och tjänstekonton som inte används m.m. och rensa dessa objekt.
 
 ### Använd minst 2 konton, vanliga och admin kontot
-Admin konton ska endast användas för att administrera AD:et eller systemen, om det krävs. Helst ska det finnas 3 olika kontonivåer, vanligt konto för att lösa vardagliga arbetsuppgifter, adminkonto med helpdesk roll för att administrera AD, så som användare, grupper, DHCP, DNS, GPO:er m.m. och ett adminkonto med högre rättigheter för att administrera systemen vid behov, exempelvis AD restore m.m.
+Admin konton ska endast användas för att administrera AD:et eller systemen. Helst ska det finnas 3 olika kontonivåer, vanligt konto för att lösa vardagliga arbetsuppgifter, adminkonto med helpdesk roll för att administrera AD, så som användare, grupper, DHCP, DNS, GPO:er, backuper, m.m. och ett adminkonto med högre rättigheter för att administrera systemen vid behov, exempelvis AD restore m.m.
 
 ### Använd inte Domain Administrator kontot
 Domänadministratörs kontot som är Enterprise admin bör endast användas för uppsättning och återställning av AD.
