@@ -1,7 +1,7 @@
 ![Build Status](https://nordlo.com/wp-content/uploads/2019/08/nordlologo.svg)
 # Checklista för säkrare Active Directory
 ### Begränsa domain och Enterprise admins
-Gå igenom AD och begränsa konton med högre rättigheter. Använd dig av [Least privilege administrative model](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models). Använd [PowerShellscriptet](https://gallery.technet.microsoft.com/scriptcenter/AD-account-Audit-find-bfcc60db) för att hitta dessa konton.
+Gå igenom AD och begränsa konton med högre rättigheter. Implementera [Least privilege administrative model](https://docs.microsoft.com/en-us/windows-server/identity/ad-ds/plan/security-best-practices/implementing-least-privilege-administrative-models). Använd [PowerShellscriptet](https://gallery.technet.microsoft.com/scriptcenter/AD-account-Audit-find-bfcc60db) för att hitta dessa konton.
 
 ### Städa AD:et
 Radera gamla dator och gamla användarkonton, avaktiverade konton, tjänstekonton som inte används m.m.
