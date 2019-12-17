@@ -128,7 +128,7 @@ Installera inte roller och programvara på domänkontrollanterna. Dessa ska inst
 Patcha servrar och klienter och migrera bort enheter med gamla operativsystem.
 
 ### Blockera skadlig trafik med hjälp av DNS
-Quad9 är exempelvis gratis att använda och skyddar miljön igenom att blockerar trafik mot skadliga siter.
+[Quad9](https://www.quad9.net/) är ett exempel på DNS-tjänster som blockerar trafik mot skadliga siter och tjänsten tjänsten är dessutom kostnadsfri att använda.
 
 ### Aktivera säkerhetsfunktioner i AD
 Använd senaste OS för de kritiska systemen och aktivera funktioner som Crendential Guard som skyddar mot Pass the hash attacker.
